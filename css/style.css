@@ -1,0 +1,87 @@
+#uor{
+    background-color: rgb(138, 200, 44);
+    color: black;
+    outline-color: rgb(127, 106, 106);
+    outline-width: 3px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-inline-start: 5px;
+}
+
+h2{
+
+    color:blue;
+    outline-color: red;
+    outline-width: 10px;
+}
+
+.uok{
+
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline-start: 5px;
+    outline-color: gray;
+}
+
+#suls{
+
+    background-color: green;
+    color: black;
+    outline-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-inline-start: 5px;
+    border:5px solid gray;
+}
+
+body>h5{
+
+    background-color: brown;
+    color: black;
+    border:5px solid white;
+    outline:3px solid white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+body>h5{
+    color:red;
+}
+
+/* universal selectors */
+*{
+
+    border:2px solid black;
+    margin:0px;
+}
+
+.box-model{
+
+    background-color:blue;
+    margin:40px;
+    border:30px solid yellow;
+    padding:20px;
+}
+
+.box2{
+
+    color:black;
+    background-color: yellow;
+    margin:10px;
+    border :5px solid green;
+    padding:15px;
+}
+
+.box3{
+    color :red;
+    background-color: black;
+    
+    outline:5px solid silver ;
+    margin: 10px;
+    border :15px solid yellow;
+    padding:30px;
+    font-size: 60px;
+    font-weight: 50px;
+}

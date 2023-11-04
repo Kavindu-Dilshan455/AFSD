@@ -1,0 +1,21 @@
+.new{
+
+    background-image: url(/assests/b9ddebba-63e2-4da4-b879-e38485f6382e.jpeg);
+    background-attachment: fixed;
+    opacity: 40%;
+    background-repeat: no-repeat;
+    width:1000px;
+    height : 400px;
+
+   
+    
+}
+div>h1{
+    color:white;
+    outline-color:  black style-solid;
+    outline-width: 20px;
+    text-decoration: solid;
+    text-decoration-color: black;
+    text-decoration-thickness: 10px;
+    
+}

@@ -1,0 +1,22 @@
+div.relative{
+    position:absolute;
+    top:900px;
+}
+
+.animation{
+    position: relative;
+    top:200px;
+    width:100px;
+    height:100px;
+    background-color: red;
+    margin:10px;
+    border:10px solid yellow;
+    padding:10px;
+    animation-name: example;
+    animation-duration: 4s;
+}
+@keyframes example{
+    from{background-color: red; top:200px;left:0px}
+    to{background-color: green;top:600px;left:100%;}
+
+}

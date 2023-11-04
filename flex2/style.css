@@ -1,0 +1,30 @@
+*{
+
+    background-color: black;
+}
+
+
+.item{
+
+    margin: 10px;
+    border:10px solid red;
+    border-radius: 20px;
+    padding:10px;
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    color:blue;
+    text-align: center;
+    font-size: 40px;
+}
+.colomns{
+    display:flex;
+    flex-direction:column-reverse;
+}
+
+.rows{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+    flex-grow: 8;
+}

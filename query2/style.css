@@ -1,0 +1,44 @@
+*{
+    background-color: aqua;
+}
+.button{
+
+    background-color: antiquewhite;
+    h0
+    
+}
+@media screen and (max-width:300px){
+    *{
+        background-color: yellow;
+    }
+    :hover.button{
+        background-color: red;
+    }
+
+    .box{
+        width:100px;
+        height:100px;
+      margin :10px;
+      border:20px solid red;
+      padding :10px;
+      color:white;
+      background-color: black;
+    }
+}
+
+@media screen and (min-width:600px){
+    *{
+        background-color: blue;
+    }
+    :hover.button{
+        background-color: green;
+    }
+    .box{
+        width:200px;
+        height:200px;
+        margin:20px;
+        border:20px dotted white;
+        padding :10px;
+        background-color:red;
+    }
+}
